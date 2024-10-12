@@ -49,6 +49,10 @@ header {
     border-radius: 10px;
 }
 
+.track-list {
+  min-height: 390px;
+}
+
 h2 {
   text-align: center;
   

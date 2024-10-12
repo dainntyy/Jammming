@@ -4,8 +4,8 @@ import './Tracklist.css';
 
 function TrackList({tracks, onAdd, onRemove, isRemoval}) {
     return (
-        <div>
-            {tracks.map(track => (
+        <div className='tracklist'>
+            {tracks && tracks.map(track => (
                 <Track
                 key={track.id} // unique key for each track
                 track={track}
